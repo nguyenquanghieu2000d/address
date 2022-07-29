@@ -1,19 +1,16 @@
 package com.facenet.address.service;
 
 import com.facenet.address.dto.AddressDTO;
-import com.facenet.address.dto.AddressDTO2;
-import org.springframework.stereotype.Repository;
+import com.facenet.address.dto.Generation;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Map;
 
 @Service
 public interface AddressService {
 
-    List<AddressDTO> findAllAddress();
+    List<Generation> getAddress(String id);
 
-    List<AddressDTO2> findAllAddressByName(String name);
+    AddressDTO getListAddress(String id);
 
-    List<AddressDTO> addAllAddress();
 }

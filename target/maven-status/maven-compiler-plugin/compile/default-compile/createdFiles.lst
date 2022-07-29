@@ -1,0 +1,14 @@
+com\facenet\address\dto\AddressDTO.class
+com\facenet\address\dto\AddressDTO2$AddressDTO2Builder.class
+com\facenet\address\dto\AddressDTO2.class
+com\facenet\address\service\impl\AddressServiceImpl.class
+com\facenet\address\Demo1Application.class
+com\facenet\address\service\impl\AddressServiceImpl$1.class
+com\facenet\address\model\Address.class
+com\facenet\address\dto\AddressRawDTO$AddressRawDTOBuilder.class
+com\facenet\address\dto\AddressDTO$AddressDTOBuilder.class
+com\facenet\address\repository\AddressRepository.class
+com\facenet\address\controller\AddressController.class
+com\facenet\address\utilities\ObjectMapperUtils.class
+com\facenet\address\dto\AddressRawDTO.class
+com\facenet\address\service\AddressService.class

@@ -8,6 +8,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -16,21 +18,20 @@ import lombok.Setter;
 @Builder
 public class AddressDTO {
 
-    @JsonProperty("id")
-    private Integer id;
-
     @JsonProperty("addressId")
-    private String addressId;
+    String addressId;
+
+    @JsonProperty("addressName")
+    String addressName;
 
     @JsonProperty("level")
-    private Integer level;
+    String level;
 
-    @JsonProperty("name")
-    private String name;
+    @JsonProperty("listChild")
+    List<AddressDTO> listChild;
 
-    @JsonProperty("parentId")
-    private Integer parentId;
+    public void setEachListChild(AddressDTO addressDTO2) {
+        listChild.add(addressDTO2);
+    }
 
-    @JsonProperty("rootParentId")
-    private Integer rootParentId;
 }

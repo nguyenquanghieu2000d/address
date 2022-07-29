@@ -1,0 +1,6 @@
+projectKey=Address
+serverUrl=http://localhost:9999
+serverVersion=9.5.0.56709
+dashboardUrl=http://localhost:9999/dashboard?id=Address
+ceTaskId=AYIokI1a1LWGFTWIEUxX
+ceTaskUrl=http://localhost:9999/api/ce/task?id=AYIokI1a1LWGFTWIEUxX
